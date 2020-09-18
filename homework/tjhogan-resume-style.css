@@ -1,0 +1,28 @@
+body {
+    background-color:#C6E5E7;
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: #3D3B30;
+}
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+p.info{
+    color: #613F75;
+    text-align: center;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: teal;
+    font-size: 32px;
+    font-weight: bold;
+}
+header.gradient{
+    background-image: url(./gradient_bg.png);
+}
+main {            
+    padding: 10px;
+    margin: 15px;
+    border: 3px solid teal;
+        }
+    
