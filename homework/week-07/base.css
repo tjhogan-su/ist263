@@ -1,0 +1,143 @@
+* {font-family: sans-serif;}
+nav ul{
+  list-style-type: none;
+}
+.page-container {width: 1024px; margin: 0 auto; padding: 0;}
+#logo {width: 150px; height: 150px; float: left; text-align: center;}
+#search {width: 20em; height: 4em; float: right;}
+#search input {width: 17em; height: 3em; float: left;}
+#search-btn {width: 3em; height: 3em; background-color: #ccc; float: right; padding: 0 1em; text-align: center;}
+#search-btn i {padding: 30% 0;}
+#top-panel {margin: 1em 1.5em 1em 1em;}
+#top-banner {background:url(images/W7-lab-banner-background.png) no-repeat;height:320px;}
+#banner-heading {background-color: #fff; margin-left:2em; margin-top: 4em; width: 30%; padding: 0.5em; display: inline-block;}
+#banner-list {padding: 1em;}
+#page-center {margin: 0 2em 0 0;}
+#bottom-row {margin: 1em 0; border-bottom:3px solid #666;}
+#social {padding-left: 1em;}
+.grid-row {padding: 1em 0 1em 1em;}
+#extra-img {float: left; padding: 2em 1em;}
+#extra-img img {float: left;}
+#extra-img p {display: inline-block; margin-left: 1em;}
+li.spaced-list {padding-bottom: 1.5em;}
+header {height: 8em; margin: 1em 0; padding: 0;}
+nav {height: 26px; margin: 1em 0; padding: 10px 0 20px 10px; background-color: #ccc; font-size: 32px;}
+.padded {background-color: #ccc; padding: 1em; margin: .75em 0;}
+#center-right {padding: 1em 0 0 1em; margin: 0;}
+#carousel .col {margin: 1em 0 1em 1em;}
+/* 
+Review the rest of this CSS file and add comments. The goal of the review is to give you an idea of how this file can be
+reused for future class and individual project work.
+
+The comments should detail
+- What does the class do?
+- What will be a good use case of this class?
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+- Sets a defined width and sets margin to 0, horozontilly sets element within container
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+- Creates flex element, wraps elements to fit the page
+
+.col {
+  display: flex;
+}
+- Creates flex element
+
+.col-1 {
+  flex: 1;
+}
+- Sets flex element to take up 1 part of the screen
+
+.col-2 {
+  flex: 2;
+}
+- Sets flex element to take up 1/2 of screen
+
+.col-3 {
+  flex: 3;
+}
+- Sets flex element to take up 1/3 of screen
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+- Sets element to resize when window size changes, making the site responsive
+
+.text-center {
+  text-align: center;
+}
+- Sets text to center alignment
+
+.text-right {
+  text-align: right;
+}
+- Sets text to right alignment
+
+.card {
+  border: 1px solid #ccc;
+}
+- Applies a 1px solid gray border to an element
+
+.rounded-border {
+  border-radius: 5px;
+}
+- Adds a rounded border to an element
+
+.m-1 {
+  margin: 10px;
+}
+- Adds 10px margin around an element
+
+.mt-1 {
+  margin-top: 10px;
+}
+- Adds 10px margin above element
+
+.ml-1 {
+  margin-left: 10px;
+}
+- Adds 10px margin to the left of an element
+
+.mr-1 {
+  margin-right: 10px;
+}
+- Adds 10px margin to the right of an element
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+- Adds 10px margin below an element
+
+.p-1 {
+  padding: 10px;
+}
+- Adds 10px of padding to an element
+
+.pt-1 {
+  padding-top: 10px;
+}
+-Adds 10px of padding above an element
+
+.pl-1 {
+  padding-left: 10px;
+}
+-Adds 10px of padding to the left of an element
+
+.pr-1 {
+  padding-right: 10px;
+}
+-Adds 10px of padding to the right of an element
+
+.pb-1 {
+  padding-bottom: 10px;
+}
+-Adds 10px of padding below an element
+#/
