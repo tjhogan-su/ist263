@@ -1,0 +1,93 @@
+* {
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 34px;
+    font-family: 'Sansita Swashed', sans-serif;
+}
+
+h4 {
+    font-family: 'Sansita Swashed', sans-serif;
+    font-size: 26px;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    background-color: #ccc;
+    text-align: center;
+}
+  
+img.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.nav li a {
+    color: white;
+}
+
+.activity {
+    display: inline-block;
+    width: 200px;
+    background-color: #b6dce9;
+    padding: 20px;
+    margin: 20px;
+    color: #194855;
+}
+
+.restaurant {
+    display: inline-block;
+    width: 200px;
+    background-color: #b6dce9;
+    padding: 20px;
+    margin: 20px;
+    color: #194855;
+    text-align: center;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #fff8ec;
+    color: #194855;
+}
+
+.jumbotron {
+    background-color: #b6dce9;
+}
+
+.video {
+    margin: 20px;
+    padding: 20px;
+}
+
+.navbar-bg {
+    background-color: #307c91;
+}
+
+.link-text {
+    color: #194855;
+}
+
+.link-text:hover {
+    color: black;
+}
+
+.beach {
+    margin: 20px;
+    padding: 20px;
+    background-color: #b6dce9;
+}
+
+.logo {
+    margin-left: 10px;
+    font-family: 'Sansita Swashed', sans-serif;
+    font-size: 25px;
+}
